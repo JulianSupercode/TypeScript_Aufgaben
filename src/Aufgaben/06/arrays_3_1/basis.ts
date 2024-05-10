@@ -21,5 +21,24 @@ const artworkDates :string[]=["Die Sternennacht - 1889",
 "Der Garten der Lüste - 1505"
 ]
 
+function suche(artworkName: string){
+    const ergSucheArtwork = artworks.find((artwork : string)=> artwork.startsWith(artworkName))
+    const ergSucheArtworkDate = artworkDates.find((artworkDate : string)=> artworkDate.startsWith(artworkName))
 
+    console.log(ergSucheArtwork, ergSucheArtworkDate);
+    if(ergSucheArtwork && ergSucheArtworkDate){
+        let sucheArtworkSplit = ergSucheArtwork.split("-")
+        let kuenstlerName = sucheArtworkSplit[1]
+
+        let sucheArtworkDateSplit = ergSucheArtworkDate.split("-")
+        let artworkDate = sucheArtworkDateSplit[1]
+
+        console.log(sucheArtworkSplit[0] + " wurde von" + kuenstlerName + " im Jahre" + artworkDate + " gemalt");
+
+    }
+    else{
+        console.log("Artwork "+artworkName+" not found" );
+    }
+}
+suche('Die Geburt');
 
