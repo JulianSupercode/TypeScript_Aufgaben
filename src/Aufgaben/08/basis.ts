@@ -23,21 +23,21 @@
 
 // while (counter < 10) 
 //     {
-//     console.log(`Hello World ${counter}`);
+    // console.log(`Hello World ${counter}`);
 //      counter++;
 // }
     
     // == Aufgabe 1_4==
 
-    let friendNames:string [] = ["Georg", "Anass", "Elaine", "Hakan", "Eric", "Kim", "Sergio","Julian" ];
+    let friendNames:string [] = ["Georg", "Anass", "Elaine", "Hakan", "Eric", "Kim", "Sergio"];
     
-    // for (let index = 0; index < 1; index++)
+    for (let index = 0; index <5; index++)
     {
-        console.log(friendNames);
+        console.log(friendNames[index]);
     }
 
     // for (const friendNamesInside of friendNames) { 
-    //     console.log(friendNamesInside);
+    //     console.log(friendNamesInside;
     // }
 
 
@@ -56,7 +56,7 @@
 
 // do {
 //     console.log(index);
-//     index +=2;
+//     index= index + 2;
 // } while (index <=20)
 
 // 
