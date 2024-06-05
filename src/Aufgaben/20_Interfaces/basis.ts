@@ -1,3 +1,5 @@
+// ==Aufgabe 1_2==
+
 // import Circle from "./frontend/circle";
 // import Rectangle from "./frontend/rectangle";
 
@@ -12,6 +14,9 @@
 // const rectangle1 = new Rectangle ("Rectangle", "Red", 23, 24, false)
 
 // rectangle1.draw ()
+
+
+// ==Aufgabe 2_1==
 
 import Subordinate from "./frontend/subordinate";
 import Manager from "./frontend/manager";
